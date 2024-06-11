@@ -12,8 +12,17 @@ body {
     height: 70vh;
     padding: 2rem 7rem;
     font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 25rem;
+    padding-bottom: 20rem;
+    /* animation: change 20s infinite ease-in-out; */
 }
+
+/* @keyframes change{
+    40%
+    {
+        background-image: url(../images/fetch-4957501_1280.jpg);
+    }
+   
+} */
 
 .logo {
     text-decoration: none;
@@ -59,8 +68,76 @@ body {
     color: white;
     font-size: 25pt;
     margin-top: 12rem;
+    margin-bottom: 6rem;
 }
 
+.view-btn {
+    color: white;
+    background-color: rgb(99, 45, 7);
+    padding: 15px 35px;
+    border: none
+}
+
+.view-btn:hover {
+    background-color: saddlebrown;
+}
+
+.view-btnn {
+    color: white;
+    background-color:  rgb(99, 45, 7);
+    padding: 15px 35px;
+    border: none
+}
+
+.view-btnn:hover {
+    background-color: saddlebrown;
+}
+
+
+.about {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.about-text {
+    padding-bottom: 7rem;
+    padding-left: 4rem;
+    /* padding-top: 1rem; */
+    height: 25rem;
+    width: 70%;
+    font-size: 24px;
+}
+
+.about-text h2 {
+font-size: 40pt;
+color: rgb(99, 45, 7);
+}
+
+.about-text p {
+font-size: 30px;
+color: rgb(99, 45, 7);
+}
+
+.about-btn {
+color: white;
+background-color: rgb(99, 45, 7);
+padding: 15px 35px;
+border: none;
+border-radius: 2rem;
+}
+
+.about-btn:hover {
+    background-color:saddlebrown;
+}
+
+.about img {
+    width: 120%;
+    height: 90%;
+}
 .want {
     background-image: url(../images/fetch-4957501_1280.jpg);
     background-position: center;
@@ -81,4 +158,16 @@ body {
 .want-text p {
     font-size: 25px;
     color: white;
+}
+
+.want-btn {
+color: white;
+background-color: rgba(10, 40, 177, 0.555);
+padding: 15px 35px;
+border: none;
+border-radius: 2rem;
+}
+
+.want-btn:hover {
+    background-color: rgb(15, 51, 209);
 }
