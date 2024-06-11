@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header-bg {
+    background-image: url(../images/dog-7630252_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    padding: 2rem 7rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 25rem;
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30pt;
+    font-weight: 15rem;
+}
+
+#nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    /* background-color: rgba(248, 248, 248, 0.438);  */
+    /* padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; */
+}
+
+.nav-item {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+
+}
+
+.header-text {
+    color: white;
+    font-size: 25pt;
+    margin-top: 12rem;
+}
