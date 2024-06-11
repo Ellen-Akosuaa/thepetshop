@@ -15,15 +15,16 @@ body {
     padding-bottom: 25rem;
 }
 
-#logo {
+.logo {
     text-decoration: none;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30pt;
-    font-weight: 15rem;
+    font-weight: 15rem; 
 }
 
 #nav-links {
+    padding-top: 3rem;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -42,16 +43,42 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem; */
 }
+.nav img{
+    width: 100px;
+    padding-right: 2rem;
+}
+
 
 .nav-item {
     text-decoration: none;
     color:white;
     font-size: 20px;
-
 }
 
 .header-text {
     color: white;
     font-size: 25pt;
     margin-top: 12rem;
+}
+
+.want {
+    background-image: url(../images/fetch-4957501_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    padding: 2rem 7rem;
+}
+
+.want-text {
+    padding-top: 2rem;
+}
+
+.want-text h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.want-text p {
+    font-size: 25px;
+    color: white;
 }
