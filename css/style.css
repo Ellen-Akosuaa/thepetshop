@@ -29,7 +29,7 @@ body {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30pt;
-    font-weight: 15rem; 
+    font-weight: 15rem;
 }
 
 #nav-links {
@@ -52,7 +52,8 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem; */
 }
-.nav img{
+
+.nav img {
     width: 100px;
     padding-right: 2rem;
 }
@@ -60,7 +61,7 @@ body {
 
 .nav-item {
     text-decoration: none;
-    color:white;
+    color: white;
     font-size: 20px;
 }
 
@@ -79,7 +80,7 @@ body {
 }
 
 .view-btn:hover {
-    background-color:rgba(245, 245, 245, 0.651);
+    background-color: rgba(245, 245, 245, 0.651);
 }
 
 .view-btnn {
@@ -114,31 +115,32 @@ body {
 }
 
 .about-text h2 {
-font-size: 40pt;
-color: rgb(99, 45, 7);
+    font-size: 40pt;
+    color: rgb(99, 45, 7);
 }
 
 .about-text p {
-font-size: 30px;
-color: rgb(99, 45, 7);
+    font-size: 30px;
+    color: rgb(99, 45, 7);
 }
 
 .about-btn {
-color: white;
-background-color: rgb(99, 45, 7);
-padding: 15px 35px;
-border: none;
-border-radius: 2rem;
+    color: white;
+    background-color: rgb(99, 45, 7);
+    padding: 15px 35px;
+    border: none;
+    border-radius: 2rem;
 }
 
 .about-btn:hover {
-    background-color:saddlebrown;
+    background-color: saddlebrown;
 }
 
 .about img {
     width: 100%;
     height: 90%;
 }
+
 .want {
     background-image: url(../images/fetch-4957501_1280.jpg);
     background-position: center;
@@ -149,6 +151,7 @@ border-radius: 2rem;
 
 .want-text {
     padding-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .want-text h2 {
@@ -162,16 +165,16 @@ border-radius: 2rem;
 }
 
 .want-btn {
-color: white;
-background-color: rgba(10, 40, 177, 0.555);
-padding: 15px 35px;
-border: none;
-border-radius: 2rem;
+    color: black;
+    background-color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 2rem;
 
 }
 
 .want-btn:hover {
-    background-color: rgb(15, 51, 209);
+    background-color: rgba(99, 45, 7, 0.76);
 }
 
 .pets {
@@ -179,7 +182,7 @@ border-radius: 2rem;
     padding-bottom: 4rem;
     text-align: center;
     font-size: 40px;
-    color:  rgb(99, 45, 7) ;
+    color: rgb(99, 45, 7);
 }
 
 .pet-gallery {
@@ -190,9 +193,79 @@ border-radius: 2rem;
     /* padding-top: 6rem; */
     padding-left: 2rem;
     padding-right: 2rem;
+    width: 100%;
+    height: 100%;
 }
 
 .pet-gallery img {
     width: 100%;
     height: 100%;
+}
+
+.pet-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.pet-text :hover {
+    opacity: 1;
+    color: blue;
+}
+
+.build-sec {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    display: flex;
+    gap: 4rem;
+}
+
+
+.build-image {
+    padding-top: 5rem;
+    width: 100%;
+    height: 90%;
+}
+
+.build-text {
+    /* align-items: flex-end; */
+    height: 25rem;
+    width: 60%;
+    font-size: 25px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.build-btn {
+    color: white;
+    background-color: rgb(99, 45, 7);
+    padding: 15px 35px;
+    border: none;
+    border-radius: 2rem;
+}
+
+.build-btn:hover {
+    background-color: rgba(139, 69, 19, 0.781);
+}
+
+.build-text h1 {
+    font-size: 30pt;
+    color: rgb(99, 45, 7);
+}
+
+.build-text p {
+    font-size: 25px;
+    color: rgb(99, 45, 7);
+    line-height: 2rem;
 }
