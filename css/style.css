@@ -13,7 +13,7 @@ body {
     padding: 2rem 7rem;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 20rem;
-    /* animation: change 20s infinite ease-in-out; */
+    /* animation: change 20s infinite ease-in-out;  */
 }
 
 /* @keyframes change{
@@ -22,7 +22,7 @@ body {
         background-image: url(../images/fetch-4957501_1280.jpg);
     }
    
-} */
+}  */
 
 .logo {
     text-decoration: none;
@@ -72,43 +72,44 @@ body {
 }
 
 .view-btn {
-    color: white;
-    background-color: rgb(99, 45, 7);
+    color: black;
+    background-color: white;
     padding: 15px 35px;
     border: none
 }
 
 .view-btn:hover {
-    background-color: saddlebrown;
+    background-color:rgba(245, 245, 245, 0.651);
 }
 
 .view-btnn {
-    color: white;
-    background-color:  rgb(99, 45, 7);
+    color: black;
+    background-color: white;
     padding: 15px 35px;
     border: none
 }
 
 .view-btnn:hover {
-    background-color: saddlebrown;
+    background-color: rgba(245, 245, 245, 0.651);
 }
 
 
 .about {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     display: flex;
     gap: 4rem;
 }
 
 .about-text {
     padding-bottom: 7rem;
-    padding-left: 4rem;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
     /* padding-top: 1rem; */
     height: 25rem;
-    width: 70%;
+    width: 50%;
     font-size: 24px;
 }
 
@@ -135,7 +136,7 @@ border-radius: 2rem;
 }
 
 .about img {
-    width: 120%;
+    width: 100%;
     height: 90%;
 }
 .want {
@@ -166,8 +167,32 @@ background-color: rgba(10, 40, 177, 0.555);
 padding: 15px 35px;
 border: none;
 border-radius: 2rem;
+
 }
 
 .want-btn:hover {
     background-color: rgb(15, 51, 209);
+}
+
+.pets {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-size: 40px;
+    color:  rgb(99, 45, 7) ;
+}
+
+.pet-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding-bottom: 5rem;
+    /* padding-top: 6rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.pet-gallery img {
+    width: 100%;
+    height: 100%;
 }
